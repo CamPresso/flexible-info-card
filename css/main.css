@@ -8,7 +8,7 @@ html {
 
 img {
   display: block;
-  width: 100%;
+  width: 5rem;
 }
 
 section {
@@ -16,16 +16,18 @@ section {
 }
 
 body {
-  margin: 1.5rem;
+
 }
 
-ul {
+ul section {
   display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 li {
   display: flex;
-  padding: 1rem;
+  padding: .5rem 1rem .6rem 2rem;
   width: 16rem;
 }
 
@@ -37,4 +39,5 @@ h2 {
 
 a {
   background-color: #444;
+  padding-left: 90%;
 }
